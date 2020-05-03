@@ -27,7 +27,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	body, err = ioutil.ReadAll(res.Body)
+	body, err := ioutil.ReadAll(res.Body)
 	res.Body.Close()
 	if err != nil {
 		log.Fatal(err)
