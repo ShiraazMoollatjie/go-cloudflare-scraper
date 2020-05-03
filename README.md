@@ -10,7 +10,7 @@ Usage
 package main
 
 import (
-    "github.com/cardigann/go-cloudflare-scraper"
+    "github.com/ShiraazMoollatjie/go-cloudflare-scraper"
 )
 
 
